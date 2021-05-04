@@ -1,0 +1,28 @@
+span {
+  width: 10em;
+  height: 2em;
+}
+
+span, img {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid blue;
+  background-color: rgba(255, 255, 0, 0.5);
+
+  /* box-sizing: border-box; */
+}
+
+p.inline span,
+p.inline img {
+  display: inline;
+}
+
+p.inline-block span,
+p.inline-block img {
+  display: inline-block;
+}
+
+p.block span,
+p.block img {
+  display: block;
+}
