@@ -3,7 +3,7 @@ span {
   height: 2em;
 }
 
-span, img {
+span, a, img  {
   margin: 1em;
   padding: 1em;
   border: 1px solid blue;
@@ -13,16 +13,19 @@ span, img {
 }
 
 p.inline span,
+p.inline a,
 p.inline img {
   display: inline;
 }
 
 p.inline-block span,
+p.inline-block a,
 p.inline-block img {
   display: inline-block;
 }
 
 p.block span,
+p.block a,
 p.block img {
   display: block;
 }
