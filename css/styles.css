@@ -3,7 +3,9 @@ span {
   height: 2em;
 }
 
-span, a, img  {
+span,
+a,
+img {
   margin: 1em;
   padding: 1em;
   border: 1px solid blue;
@@ -28,4 +30,16 @@ p.block span,
 p.block a,
 p.block img {
   display: block;
+}
+
+div.text {
+  background-color: #fee;
+}
+
+div.link {
+  background-color: #efe;
+}
+
+div.img {
+  background-color: #eef;
 }
